@@ -119,6 +119,8 @@ h1 span { color: var(--orange); }
   border-radius: 50%;
   overflow: hidden;
   border: 2px solid #39393e;
+  box-shadow: 0 0 18px #ff571755, 0 0 42px #ff57172e;
+  transition: box-shadow 250ms ease, border-color 250ms ease;
   margin: auto;
 }
 
@@ -353,6 +355,41 @@ header { background: #101012d9; backdrop-filter: blur(10px); }
 .skill-list li::before { content: "→"; position: absolute; left: 0; color: var(--orange); }
 @media (max-width: 1000px) { .skills-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 600px) { .skills-grid { grid-template-columns: 1fr; } .skill-card { min-height: 0; } }
+/* Subtle entrance and hover animations */
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.hero > div:first-child { animation: fade-up 650ms ease-out both; }
+.portrait { animation: fade-up 750ms 120ms ease-out both; }
+.hero .stat { animation: fade-up 500ms ease-out both; }
+.hero .stat:nth-child(2) { animation-delay: 100ms; }
+.hero .stat:nth-child(3) { animation-delay: 200ms; }
+
+.button, .nav-links a, .logo, .skill-icon, .project-image {
+  transition: color 180ms ease, background-color 180ms ease, border-color 180ms ease,
+    transform 180ms ease, box-shadow 180ms ease;
+}
+.button:hover { transform: translateY(-2px); box-shadow: 0 7px 18px #ff571738; }
+.nav-links a:hover { transform: translateY(-1px); }
+.logo:hover { transform: scale(1.06); }
+.project-card:hover .project-image { transform: scale(1.015); }
+.skill-card:hover .skill-icon { transform: rotate(-4deg) scale(1.05); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+.portrait:hover {
+  border-color: var(--orange);
+  box-shadow: 0 0 24px #ff571780, 0 0 56px #ff571740;
+}
 
     
    
