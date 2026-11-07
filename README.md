@@ -8,7 +8,7 @@ A modern, dark-themed personal developer & UI/UX designer portfolio built using 
 
 ## 🌟 About
 
-I am a Computer Science student and aspiring UI/UX Designer & Frontend Developer. This portfolio showcases my design philosophy, skills, academic journey, and real hands-on projects built with clean, responsive, and accessible code.
+I am a Computer Science student and aspiring  Frontend Developer. This portfolio showcases my design philosophy, skills, academic journey, and real hands-on projects built with clean, responsive, and accessible code.
 
 - **Design Style**: Sleek Dark Theme with neon orange accents (`#ff5e14`), glassmorphism cards, and subtle geometric ambient facets.
 - **Tech Stack**: 100% Pure HTML5 & Modern CSS3 (Zero JavaScript dependencies).
@@ -65,7 +65,7 @@ I am a Computer Science student and aspiring UI/UX Designer & Frontend Developer
 ### 1. Flexbox Quest — CSS Interactive Game
 - **Screenshot**: `images/flexbox-quest.png`
 - **Live Demo**: [Open Flexbox Quest](projects/Assignment2.html)
-- **Technologies**: HTML5, CSS Flexbox, Game UI, Responsive Design
+- **Technologies**: HTML5, CSS Flexbox, , Responsive Design
 - **Description**: An interactive gamified interface designed to teach and master CSS Flexbox mechanics, featuring lives, coins, alignment axes (`justify-content`, `align-items`), `flex-wrap`, and container direction controls.
 
 ### 2. ShopEasy — Modern E-Commerce Storefront
@@ -121,7 +121,7 @@ student portfolio/
 
 - **Name**: Aditya Mohite
 - **Track**: Scaler WebDev 101 — Group D (Class 11 Builders Day)
-- **Role**: UI/UX Designer & Frontend Developer
+- **Role**: Frontend Developer
 - **Email**: `aditya.mohite@example.com`
  -**portfolio* - https://adimohite7743-rgb.github.io/portfolio/
   -**portfolion reposetory *- https://github.com/adimohite7743-rgb/portfolio.git
